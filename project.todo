@@ -1,0 +1,18 @@
+- [ ] papechan
+  - [ ] directory indexer
+  - [ ] collect image metadata
+  - [ ] Transformers
+    - [ ] crop to relevant center using smartcrop
+    - [ ] apply color filters
+    - [ ] classify for light and dark modes
+    - [ ] Support for waifu2x
+    - [ ] nsfw detection and blurring
+- [ ] 4chan-img-dl
+  - [X] Extract images from 4chan wp
+    - [X] parse json
+    - [X] extract and craft image urls
+    - [X] download images
+  - [X] filter pipeline
+    - [X] before download
+      - [X] check ratio
+      - [X] check dimensions
